@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>vinScanner.xcscheme</key>
+		<key>QRCodeReader.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,7 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>F776E8101E5527830044CFC7</key>
+		<key>F4F09DB21DAF669400026BB2</key>
 		<dict>
 			<key>primary</key>
 			<true/>

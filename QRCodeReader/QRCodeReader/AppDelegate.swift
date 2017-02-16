@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  vinScanner
+//  QRCodeReader
 //
-//  Created by Rich Kolasa on 2/15/17.
-//  Copyright © 2017 Rich Kolasa. All rights reserved.
+//  Created by Simon Ng on 13/10/2016.
+//  Copyright © 2016 AppCoda. All rights reserved.
 //
 
 import UIKit

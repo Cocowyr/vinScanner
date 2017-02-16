@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F776E8151E5527830044CFC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776E8141E5527830044CFC7 /* AppDelegate.swift */; };
-		F776E8171E5527830044CFC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F776E8161E5527830044CFC7 /* ViewController.swift */; };
-		F776E81A1E5527830044CFC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F776E8181E5527830044CFC7 /* Main.storyboard */; };
-		F776E81C1E5527830044CFC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F776E81B1E5527830044CFC7 /* Assets.xcassets */; };
-		F776E81F1E5527830044CFC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F776E81D1E5527830044CFC7 /* LaunchScreen.storyboard */; };
+		F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F09DB61DAF669400026BB2 /* AppDelegate.swift */; };
+		F4F09DBC1DAF669400026BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBA1DAF669400026BB2 /* Main.storyboard */; };
+		F4F09DBE1DAF669400026BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBD1DAF669400026BB2 /* Assets.xcassets */; };
+		F4F09DC11DAF669400026BB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBF1DAF669400026BB2 /* LaunchScreen.storyboard */; };
+		F4F09DCB1DAF6A4F00026BB2 /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F776E8111E5527830044CFC7 /* vinScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vinScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F776E8141E5527830044CFC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F776E8161E5527830044CFC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F776E8191E5527830044CFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F776E81B1E5527830044CFC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F776E81E1E5527830044CFC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F776E8201E5527830044CFC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F09DB31DAF669400026BB2 /* QRCodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F09DB61DAF669400026BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4F09DBB1DAF669400026BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4F09DBD1DAF669400026BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4F09DC01DAF669400026BB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4F09DC21DAF669400026BB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F776E80E1E5527830044CFC7 /* Frameworks */ = {
+		F4F09DB01DAF669400026BB2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,72 +35,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F776E8081E5527830044CFC7 = {
+		F4F09DAA1DAF669400026BB2 = {
 			isa = PBXGroup;
 			children = (
-				F776E8131E5527830044CFC7 /* vinScanner */,
-				F776E8121E5527830044CFC7 /* Products */,
+				F4F09DB51DAF669400026BB2 /* QRCodeReader */,
+				F4F09DB41DAF669400026BB2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F776E8121E5527830044CFC7 /* Products */ = {
+		F4F09DB41DAF669400026BB2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F776E8111E5527830044CFC7 /* vinScanner.app */,
+				F4F09DB31DAF669400026BB2 /* QRCodeReader.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F776E8131E5527830044CFC7 /* vinScanner */ = {
+		F4F09DB51DAF669400026BB2 /* QRCodeReader */ = {
 			isa = PBXGroup;
 			children = (
-				F776E8141E5527830044CFC7 /* AppDelegate.swift */,
-				F776E8161E5527830044CFC7 /* ViewController.swift */,
-				F776E8181E5527830044CFC7 /* Main.storyboard */,
-				F776E81B1E5527830044CFC7 /* Assets.xcassets */,
-				F776E81D1E5527830044CFC7 /* LaunchScreen.storyboard */,
-				F776E8201E5527830044CFC7 /* Info.plist */,
+				F4F09DB61DAF669400026BB2 /* AppDelegate.swift */,
+				F4F09DBA1DAF669400026BB2 /* Main.storyboard */,
+				F4F09DBD1DAF669400026BB2 /* Assets.xcassets */,
+				F4F09DBF1DAF669400026BB2 /* LaunchScreen.storyboard */,
+				F4F09DC21DAF669400026BB2 /* Info.plist */,
+				F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */,
 			);
-			path = vinScanner;
+			path = QRCodeReader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F776E8101E5527830044CFC7 /* vinScanner */ = {
+		F4F09DB21DAF669400026BB2 /* QRCodeReader */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F776E8231E5527830044CFC7 /* Build configuration list for PBXNativeTarget "vinScanner" */;
+			buildConfigurationList = F4F09DC51DAF669400026BB2 /* Build configuration list for PBXNativeTarget "QRCodeReader" */;
 			buildPhases = (
-				F776E80D1E5527830044CFC7 /* Sources */,
-				F776E80E1E5527830044CFC7 /* Frameworks */,
-				F776E80F1E5527830044CFC7 /* Resources */,
+				F4F09DAF1DAF669400026BB2 /* Sources */,
+				F4F09DB01DAF669400026BB2 /* Frameworks */,
+				F4F09DB11DAF669400026BB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = vinScanner;
-			productName = vinScanner;
-			productReference = F776E8111E5527830044CFC7 /* vinScanner.app */;
+			name = QRCodeReader;
+			productName = QRCodeReader;
+			productReference = F4F09DB31DAF669400026BB2 /* QRCodeReader.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F776E8091E5527830044CFC7 /* Project object */ = {
+		F4F09DAB1DAF669400026BB2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
-				ORGANIZATIONNAME = "Rich Kolasa";
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = AppCoda;
 				TargetAttributes = {
-					F776E8101E5527830044CFC7 = {
-						CreatedOnToolsVersion = 8.2.1;
+					F4F09DB21DAF669400026BB2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = NZNYL83N2H;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = F776E80C1E5527830044CFC7 /* Build configuration list for PBXProject "vinScanner" */;
+			buildConfigurationList = F4F09DAE1DAF669400026BB2 /* Build configuration list for PBXProject "QRCodeReader" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,54 +109,54 @@
 				en,
 				Base,
 			);
-			mainGroup = F776E8081E5527830044CFC7;
-			productRefGroup = F776E8121E5527830044CFC7 /* Products */;
+			mainGroup = F4F09DAA1DAF669400026BB2;
+			productRefGroup = F4F09DB41DAF669400026BB2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F776E8101E5527830044CFC7 /* vinScanner */,
+				F4F09DB21DAF669400026BB2 /* QRCodeReader */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F776E80F1E5527830044CFC7 /* Resources */ = {
+		F4F09DB11DAF669400026BB2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F776E81F1E5527830044CFC7 /* LaunchScreen.storyboard in Resources */,
-				F776E81C1E5527830044CFC7 /* Assets.xcassets in Resources */,
-				F776E81A1E5527830044CFC7 /* Main.storyboard in Resources */,
+				F4F09DC11DAF669400026BB2 /* LaunchScreen.storyboard in Resources */,
+				F4F09DBE1DAF669400026BB2 /* Assets.xcassets in Resources */,
+				F4F09DBC1DAF669400026BB2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F776E80D1E5527830044CFC7 /* Sources */ = {
+		F4F09DAF1DAF669400026BB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F776E8171E5527830044CFC7 /* ViewController.swift in Sources */,
-				F776E8151E5527830044CFC7 /* AppDelegate.swift in Sources */,
+				F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */,
+				F4F09DCB1DAF6A4F00026BB2 /* QRScannerController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F776E8181E5527830044CFC7 /* Main.storyboard */ = {
+		F4F09DBA1DAF669400026BB2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F776E8191E5527830044CFC7 /* Base */,
+				F4F09DBB1DAF669400026BB2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F776E81D1E5527830044CFC7 /* LaunchScreen.storyboard */ = {
+		F4F09DBF1DAF669400026BB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F776E81E1E5527830044CFC7 /* Base */,
+				F4F09DC01DAF669400026BB2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -163,7 +164,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F776E8211E5527830044CFC7 /* Debug */ = {
+		F4F09DC31DAF669400026BB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,7 +182,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -203,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -213,7 +214,7 @@
 			};
 			name = Debug;
 		};
-		F776E8221E5527830044CFC7 /* Release */ = {
+		F4F09DC41DAF669400026BB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -231,7 +232,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -247,7 +248,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -256,25 +257,27 @@
 			};
 			name = Release;
 		};
-		F776E8241E5527830044CFC7 /* Debug */ = {
+		F4F09DC61DAF669400026BB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = vinScanner/Info.plist;
+				DEVELOPMENT_TEAM = NZNYL83N2H;
+				INFOPLIST_FILE = QRCodeReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.vinScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.QRCodeReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
-		F776E8251E5527830044CFC7 /* Release */ = {
+		F4F09DC71DAF669400026BB2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = vinScanner/Info.plist;
+				DEVELOPMENT_TEAM = NZNYL83N2H;
+				INFOPLIST_FILE = QRCodeReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.vinScanner;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appcoda.QRCodeReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -283,24 +286,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F776E80C1E5527830044CFC7 /* Build configuration list for PBXProject "vinScanner" */ = {
+		F4F09DAE1DAF669400026BB2 /* Build configuration list for PBXProject "QRCodeReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F776E8211E5527830044CFC7 /* Debug */,
-				F776E8221E5527830044CFC7 /* Release */,
+				F4F09DC31DAF669400026BB2 /* Debug */,
+				F4F09DC41DAF669400026BB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F776E8231E5527830044CFC7 /* Build configuration list for PBXNativeTarget "vinScanner" */ = {
+		F4F09DC51DAF669400026BB2 /* Build configuration list for PBXNativeTarget "QRCodeReader" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F776E8241E5527830044CFC7 /* Debug */,
-				F776E8251E5527830044CFC7 /* Release */,
+				F4F09DC61DAF669400026BB2 /* Debug */,
+				F4F09DC71DAF669400026BB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F776E8091E5527830044CFC7 /* Project object */;
+	rootObject = F4F09DAB1DAF669400026BB2 /* Project object */;
 }
